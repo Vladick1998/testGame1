@@ -8,6 +8,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using static UnityEngine.GraphicsBuffer;
 
+//ќсновной скрипт симул€ции поведени€ оружи€
 public class WeaponController : MonoBehaviour
 {
     [Header("Weapon Stats")]

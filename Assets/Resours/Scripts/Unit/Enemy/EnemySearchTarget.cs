@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Скрипт ищет игрока и контролирует поведение монстра.
 public class EnemySearchTarget : MonoBehaviour
 {
     [SerializeField]

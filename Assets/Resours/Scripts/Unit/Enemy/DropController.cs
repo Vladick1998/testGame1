@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//После смерти выбросит на пол предметы которые задали в инспекторе.
 public class DropController : MonoBehaviour
 {
     [System.Serializable]

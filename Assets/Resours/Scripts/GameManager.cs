@@ -5,6 +5,7 @@ using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Скрипт содержит в себе информацию о score игрока так же в случае нового рекорда сохраняет его. Так же скрипт содержит код смены сцены.
 public class GameManager : MonoBehaviour
 {
     public static GameManager gameManager;

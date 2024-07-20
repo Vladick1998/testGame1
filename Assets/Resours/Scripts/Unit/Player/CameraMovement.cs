@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+//Скрипт реализует плавное движение камеры вслед за target
 public class CameraMovement : MonoBehaviour
 {
     public float speed;

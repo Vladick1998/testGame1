@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+//Скрипт отвечает за передвижение и статы игрока
 public class PlayerControler : Unit
 {
     [HideInInspector]

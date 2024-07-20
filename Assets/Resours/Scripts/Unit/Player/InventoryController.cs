@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Image = UnityEngine.UI.Image;
 
+//Скрипт отвечающий за работу инвенторя.
 public class InventoryController : MonoBehaviour
 {
     public InventoryСell[] items = new InventoryСell[3];//лучше бы сделал list но уже накодил так

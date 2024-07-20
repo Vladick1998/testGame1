@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+//Контролирует поведение врагов
 public class EnemyController : Unit
 {
     public bool move;

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Подбираемый предмет который исцеляет игрока
 public class LifeGem : MonoBehaviour,iCollectable
 {
     public float lifeRegen;

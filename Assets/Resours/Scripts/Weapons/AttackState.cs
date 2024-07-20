@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+//Скрипт проверяет зажата ли кнопка атаки и хранит эту информацию в себе
 public class AttackState : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public static bool attackState;

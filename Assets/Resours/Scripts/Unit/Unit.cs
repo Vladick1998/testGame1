@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Скрипт содержит основные атрибуты живых объектов
 public class Unit : MonoBehaviour
 {
     public UnitScriptableObject unitData;

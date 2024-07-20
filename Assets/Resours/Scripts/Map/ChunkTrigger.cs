@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//вы€сн€ет в каком чанке находитьс€ игрок и передает информацию в MapController
 public class ChunkTrigger : MonoBehaviour
 {
     public GameObject targetMap;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+//Спавнит хранит и деактивирует чанки
 public class MapController : MonoBehaviour
 {
     public List<GameObject> terrainChunks;
@@ -12,20 +13,17 @@ public class MapController : MonoBehaviour
     public LayerMask terrainMask;
     PlayerControler playerControler;
     public static GameObject currentChunk;
-
     [Header("Optimization")]
     public List<GameObject> terrainChunksList;
     GameObject latestChunk;
     public float maxEnableDist;
     float opDist;
-    // Start is called before the first frame update
+
     void Start()
     {
         playerControler = FindObjectOfType<PlayerControler>();
         StartCoroutine(chunkOptimizer());
     }
-
-    // Update is called once per frame
     void Update()
     {
          ChunkCheker();

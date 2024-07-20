@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Terresquall;
 using UnityEngine;
 
+//ќсновной скрипт симул€ции поведени€ пули.
 public class Projectile : MonoBehaviour
 {
     public WeaponScriptableObject weaponData;

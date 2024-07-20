@@ -6,16 +6,10 @@ public class ItemSpawn : MonoBehaviour
 {
     public List<GameObject> itemSpawnPoints;
     public List<GameObject> items;
-    // Start is called before the first frame update
+
     void Start()
     {
         spawnItems();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     void spawnItems()
     {
